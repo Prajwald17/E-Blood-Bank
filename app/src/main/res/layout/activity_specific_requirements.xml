@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SpecificRequirements">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="35dp"
+        app:cardElevation="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/card_background">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SpecificBloodGrp"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:hint="Enter Blood Group"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SpecificCity"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:hint="Enter City"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Searchbtn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:drawableStart="@drawable/baseline_search_24"
+                android:text="Search"
+                android:layout_marginLeft="85dp"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
